@@ -1,0 +1,18 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "This repository is for practicing HTML/CSS JavaScript and so on.",
+  "main": "index.js",
+  "devDependencies": {
+    "http": "^0.0.1-security"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
