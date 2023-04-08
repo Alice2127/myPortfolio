@@ -1,3 +1,19 @@
 h1 {
   color: red;
 }
+
+header {
+  height: 200px;
+  background-color: aqua;
+  opacity: 0.1;
+}
+
+.mainImage {
+  height: 500px;
+  background-image: url('/images/botanical.png'); 
+}
+
+footer {
+  height: 200px;
+  background-color: green;
+}
