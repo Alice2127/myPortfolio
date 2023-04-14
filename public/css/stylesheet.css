@@ -3,12 +3,26 @@ body {
 }
 
 header {
+  display: flex;
+  align-items: center;
   height: 50px;
-  background-color: rgb(0, 255, 255, 0.1);
+  background-color: rgb(245, 245, 245, 0.1)
+}
+
+.header-container {
+  /* margin: 10px 10px; */
+  /* padding: 10px 10px; */
+  height: 90%;
+  width: 100%;
 }
 
 .header-right {
+  margin-top: 10px;
   float: right;
+}
+
+.header-left {
+  float: left;
 }
 
 header a {
