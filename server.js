@@ -11,5 +11,17 @@ app.get('/', (req, res) => {
   res.render('hello.ejs');
 });
 
+app.get('/about', (req, res) => {
+  res.render('about.ejs');
+});
+
+app.get('/works', (req, res) => {
+  res.render('works.ejs');
+});
+
+app.get('/contact', (req, res) => {
+  res.render('contact.ejs');
+});
+
 // サーバーの起動
 app.listen(3000);
