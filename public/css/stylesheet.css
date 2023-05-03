@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: center;
   height: 50px;
-  background-color: rgb(245, 245, 245, 0.1)
+  background-color: rgba(235, 219, 206, 0.755)
 }
 
 .header-container {
@@ -32,9 +32,15 @@ body {
   color: navy;
 }
 
+.main {
+  max-width: 380px;
+}
+
 .mainImage {
   position: relative;
   height: 500px;
+  width: 100vw;
+
   background-image: url('/images/botanical.png');
 }
 
@@ -45,6 +51,8 @@ body {
 }
 
 footer {
-  height: 200px;
-  background-color: green;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(235, 219, 206, 0.755)
 }
