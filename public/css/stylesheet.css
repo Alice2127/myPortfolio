@@ -40,7 +40,6 @@ body {
   position: relative;
   height: 500px;
   width: 100vw;
-
   background-image: url('/images/botanical.png');
 }
 
@@ -55,4 +54,18 @@ footer {
   align-items: center;
   height: 50px;
   background-color: rgba(235, 219, 206, 0.755)
+}
+
+/* ここからabout.ejsのCSS */
+.main-container {
+  padding: 10px;
+}
+
+.photos {
+  display: flex;
+  text-align: center;
+}
+
+.myPhoto {
+  padding-right: 50px;
 }
