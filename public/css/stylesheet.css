@@ -59,11 +59,13 @@ footer {
 /* ここからabout.ejsのCSS */
 .main-container {
   padding: 10px;
+  color: black;
 }
 
 .photos {
   display: flex;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .photos img{
@@ -72,4 +74,8 @@ footer {
 
 .myPhoto {
   padding-right: 50px;
+}
+
+.my-history {
+  margin-bottom: 50px;
 }
