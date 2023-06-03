@@ -80,3 +80,13 @@ footer {
 .my-history {
   margin-bottom: 50px;
 }
+
+/* ここからcontact.ejsのCSS */
+.email {
+  overflow: auto;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
